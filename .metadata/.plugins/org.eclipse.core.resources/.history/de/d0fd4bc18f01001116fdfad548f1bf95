@@ -1,0 +1,20 @@
+package p54Annotation;
+class Demo1 {
+	@SuppressWarnings
+	
+	void display() {
+		System.out.println("display parent(Demo1");
+		
+	    int a = 10;
+	    int b = 20;
+	    int c = 30;
+	}
+}
+public class Program1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

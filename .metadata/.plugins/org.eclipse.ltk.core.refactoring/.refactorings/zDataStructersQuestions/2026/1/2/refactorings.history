@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;zDataStructersQuestions.p4BinarySearchAndFindElement&apos; to &apos;p4BinarySearchAndFindPrice&apos;&#x0D;&#x0A;- Original project: &apos;zDataStructersQuestions&apos;&#x0D;&#x0A;- Original element: &apos;zDataStructersQuestions.p4BinarySearchAndFindElement&apos;&#x0D;&#x0A;- Renamed element: &apos;zDataStructersQuestions.p4BinarySearchAndFindPrice&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;p4BinarySearchAndFindElement&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;zDataStructersQuestions{p4BinarySearchAndFindElement.java[p4BinarySearchAndFindElement" matchStrategy="1" name="p4BinarySearchAndFindPrice" qualified="false" references="true" similarDeclarations="false" stamp="1767617430337" textual="false" version="1.0"/>
+</session>

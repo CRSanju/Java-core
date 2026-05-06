@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;zDataStructersQuestions.p12SubSequence.java&apos; to &apos;z12SubSequence.java&apos;&#x0D;&#x0A;- Original project: &apos;zDataStructersQuestions&apos;&#x0D;&#x0A;- Original element: &apos;zDataStructersQuestions.p12SubSequence.java&apos;&#x0D;&#x0A;- Renamed element: &apos;zDataStructersQuestions.z12SubSequence.java&apos;" description="Rename compilation unit &apos;p12SubSequence.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;zDataStructersQuestions{p12SubSequence.java" name="z12SubSequence.java" references="false" stamp="1768827761072" version="1.0"/>
+</session>

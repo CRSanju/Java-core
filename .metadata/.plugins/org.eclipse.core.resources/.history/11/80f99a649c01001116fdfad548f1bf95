@@ -1,0 +1,10 @@
+package p54Annotation;
+
+//Custom Annotation
+class Demo5 {
+	@Minage(age = 18)
+	@Maxage(age = 100)
+	void display(int age) {
+		System.out.println(age);
+	}
+}

@@ -1,0 +1,14 @@
+package loops;
+
+public class newloop1 {
+ public static void main(String[] args) {
+	 
+	 for(int j = 1; j <= 3; j++) {
+		 
+	 for(int i = 1; i <= 4; i++) {
+		 System.out.println("j: " + j  + " i: " + i);
+	 }
+	 System.out.println();
+	 }
+ }
+}

@@ -1,0 +1,13 @@
+package p54Annotation;
+
+//Custom Annotation
+class Demo5 {
+	@Maxage(age = 100)
+	int age;
+	
+	@Minage(age = 18)
+	@Oneparameter(para = "Only one parameter")
+	void display(int age) {
+		System.out.println(age);
+	}
+}

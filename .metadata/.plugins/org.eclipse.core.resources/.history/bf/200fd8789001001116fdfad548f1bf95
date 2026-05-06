@@ -1,0 +1,30 @@
+package p54Annotation;
+@SuppressWarnings("unused")
+class Demo1 {
+	//@SuppressWarnings("unused")
+	void display() {
+		System.out.println("display parent(Demo1");
+		
+	    int a = 10;
+	    int b = 20;
+	    int c = 30;
+	}
+}
+
+class Demo2 extends Demo1 {
+	@Override
+	void display() {
+		System.out.println("display child(Demo2)");
+	}
+}
+public class Program1 {
+
+	public static void main(String[] args) {
+		
+		Demo2 dm = new Demo2();
+		dm.display();
+		
+
+	}
+
+}

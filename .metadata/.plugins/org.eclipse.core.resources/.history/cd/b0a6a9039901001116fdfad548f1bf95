@@ -1,0 +1,16 @@
+package p54Annotation;
+
+class Demo1 {
+	@Minage(age=18)
+	void display(int age) {
+		System.out.println(age);
+	}
+}
+public class Program2 {
+
+	public static void main(String[] args) {
+        
+
+	}
+
+}

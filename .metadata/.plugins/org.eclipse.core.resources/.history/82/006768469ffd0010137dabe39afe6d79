@@ -1,0 +1,55 @@
+package p51ThreadAndMultithreading8;
+
+public class Hospital implements Runnable {
+
+	String res1 = "BED";
+	String res2 = "DOCTOR";
+
+	@Override
+	public void run() {
+
+		String threadName = Thread.currentThread().getName();
+
+		if (threadName.equals("TOM")) {
+            tomTreatment();
+		} else {
+            jerryTreatment();
+		}
+	}
+
+	public void tomTreatment() {
+		try {
+			synchronized (res1) {
+				System.out.println("Tom has occupied " + res1);
+				Thread.sleep(3000);
+				synchronized (res2) {
+					System.out.println("Tom has occupied " + res2);
+					Thread.sleep(3000);
+					System.out.println("Tom has released " + res2);
+				}
+				System.out.println("Tom has released " + res1);
+			}
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void jerryTreatment() {
+		try {
+			synchronized (res1) {
+				System.out.println("Jerry has occupied " + res1);
+				Thread.sleep(3000);
+				synchronized (res2) {
+					System.out.println("Jerry has occupied " + res2);
+					Thread.sleep(3000);
+					System.out.println("Jerry has released " + res2);
+				}
+				System.out.println("Jerry has released " + res1);
+			}
+
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+	}
+}

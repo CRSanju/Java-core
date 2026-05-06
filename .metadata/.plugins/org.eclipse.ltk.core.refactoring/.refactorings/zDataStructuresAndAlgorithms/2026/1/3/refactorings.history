@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;DSA.p11TwoPointer&apos; to &apos;z11TwoPointer&apos;&#x0D;&#x0A;- Original project: &apos;zDataStructuresAndAlgorithms&apos;&#x0D;&#x0A;- Original element: &apos;DSA.p11TwoPointer&apos;&#x0D;&#x0A;- Renamed element: &apos;DSA.z11TwoPointer&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;p11TwoPointer&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;DSA{p11TwoPointer.java[p11TwoPointer" matchStrategy="1" name="z11TwoPointer" qualified="false" references="true" similarDeclarations="false" stamp="1768310136151" textual="false" version="1.0"/>
+</session>

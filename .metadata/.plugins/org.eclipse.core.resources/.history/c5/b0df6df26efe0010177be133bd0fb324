@@ -1,0 +1,26 @@
+package p52FileHandling;
+
+import java.io.*;
+
+public class Program1 {
+
+	public static void main(String[] args) throws IOException {
+		
+		String path1 = "C:\\Users\\sanju\\Pictures\\Adv\\input.txt";
+		String path2 = "C:\\Users\\sanju\\Pictures\\Adv\\output.txt";
+		
+		FileInputStream fis = new FileInputStream(path1);
+		FileInputStream fos = new FileInputStream(path2);
+		
+		int data;
+		
+		while((data = fis.read()) != -1) {
+			fos.write(data);
+		}
+		
+		fis.close();
+		fos.close();
+
+	}
+
+}

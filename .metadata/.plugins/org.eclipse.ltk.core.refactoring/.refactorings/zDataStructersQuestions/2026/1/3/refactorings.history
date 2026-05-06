@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;zDataStructersQuestions.p9reverseStringSameOrder&apos; to &apos;p9reverseStringEachWord&apos;&#x0D;&#x0A;- Original project: &apos;zDataStructersQuestions&apos;&#x0D;&#x0A;- Original element: &apos;zDataStructersQuestions.p9reverseStringSameOrder&apos;&#x0D;&#x0A;- Renamed element: &apos;zDataStructersQuestions.p9reverseStringEachWord&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;p9reverseStringSameOrder&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;zDataStructersQuestions{p9reverseStringSameOrder.java[p9reverseStringSameOrder" matchStrategy="1" name="p9reverseStringEachWord" qualified="false" references="true" similarDeclarations="false" stamp="1768224465200" textual="false" version="1.0"/>
+</session>

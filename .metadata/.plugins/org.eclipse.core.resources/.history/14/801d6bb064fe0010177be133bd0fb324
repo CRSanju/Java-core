@@ -1,0 +1,26 @@
+package z51ProducerConsumer;
+
+public class Factory {
+
+	int x;
+	boolean isProduced = false;
+
+	public void setData(int x) {
+		if(isProduced == true) {
+			try {
+				wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		this.x = x;
+		System.out.println("I have put " + x + " in the factory");
+		isProduced = true;
+		notify();
+	}
+
+	public void getData() {
+		if(isProduced == false)
+		System.out.println("I have taken " + x + " from the factory");
+	}
+}

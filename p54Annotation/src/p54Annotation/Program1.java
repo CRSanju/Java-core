@@ -1,0 +1,57 @@
+package p54Annotation;
+
+import java.util.ArrayList;
+
+@SuppressWarnings({"unchecked", "rawtypes", "unused"})
+class Demo1 {
+	private static final int ArrayList = 0;
+
+	// @SuppressWarnings("unused")
+	void display() {
+		System.out.println("display parent(Demo1");
+
+		int a = 10;
+		int b = 20;
+		int c = 30;
+	}
+	
+	//@SuppressWarnings("unchecked")
+	//@SuppressWarnings({"unchecked", "rawtypes"})
+	void decArray() {
+		
+		//@SuppressWarnings("rawtypes")
+		ArrayList al = new ArrayList();
+		
+		al.add(10);
+		al.add(20);
+		al.add(30);
+		
+		int z = 100;
+	}
+	
+	@Deprecated
+	void decAndUseArray() {
+	    ArrayList<String> sl = new ArrayList<String>();
+	    sl.add("Raja");
+	    sl.add("Pooja");
+	}
+}
+
+class Demo2 extends Demo1 {
+	@Override
+	void display() {
+		System.out.println("display child(Demo2)");
+	}
+}
+
+public class Program1 {
+	public static void main(String[] args) {
+
+		Demo2 dm = new Demo2();
+		dm.display();
+		
+		dm.decAndUseArray();
+		
+
+	}
+}

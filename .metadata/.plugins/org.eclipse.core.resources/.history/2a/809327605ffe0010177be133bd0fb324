@@ -1,0 +1,20 @@
+package z51ProducerConsumer;
+
+public class Consumer implements Runnable {
+
+	Factory factory;
+	
+	public Consumer(Factory factory) {
+		this.factory = factory;
+	}
+	
+	public void run() {
+		while(true) {
+			try {
+			factory.getData();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}

@@ -1,0 +1,194 @@
+package patternProgarmming;
+
+public class program39 {
+
+	public static void main(String[] args) {
+		int n = 10;
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == 0 || i == 5 || i == n || j == 0 || j == 11) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("__________________________________________");
+		
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == 0 || i == n || j == 0) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("________________________________________________");
+		
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == 0 || i == n || j == 0 || j == 11) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("_______________________________________________");
+		
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == 0 || i == 5 || i == n || j == 0) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("___________________________________________________");
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == 0 || j == n/2) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("_______________________________________________________");
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == n || j == 0 || j == 11) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("__________________________________________________________");
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == 0 || i == n || i+j == n) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("_____________________________________________________________");
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if ( i == 5 || j == 0 || j == 11) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("___________________________________________________________________");
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == 0 || i == n || j == 5) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("_______________________________________________________________");
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == n || j == 0) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("______________________________________________________________");
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == j || j == 0 ||j == 11) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("________________________________________________________________");
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == 0 || i == n || j == 0 || j == 11) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("___________________________________________________________________");
+		
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == 0 || i == 5 || i == n || (j == 0 && i <= 5) || (j == 11 && i >= 6)) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+		
+		System.out.println("____________________________________________________________");
+		
+		
+		for (int i = 0; i <= n; i++) {
+			for (int j = 0; j <= 11; j++) {
+				if (i == j || i+j == n) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+
+	}
+
+}
